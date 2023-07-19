@@ -31,7 +31,6 @@
     --light-color:#F9FAF8;
     --mid-color:#E5E7EB;
     --accent:#3882F6;
-    --hover-color:#381FFF;
 }
 
 body {
@@ -189,3 +188,19 @@ a {
     font-size: 36px;
     color: var(--dark-color);
 }
+
+/* cta styles */
+
+.cta-flex {
+    color: var(--light-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.cta-button {
+    border: 2px solid var(--light-color);
+}
+
