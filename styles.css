@@ -39,16 +39,16 @@ body {
 }
 
 .centre {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .container {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 header,
-.hero,
+.hero-container,
 footer {
     background-color: var(--dark-color);
 }
@@ -71,8 +71,6 @@ footer {
 li {
     list-style: none;
 }
-
-
 
 .header-list {
     height: 50px;
@@ -99,8 +97,53 @@ a {
     color: var(--accent);
 }
 
+/* hero styles */
 
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
 
+.secondary-text {
+    font-size: 18px;
+    color:var(--mid-color);
+}
 
+.sign-up {
+    background-color: var(--accent);
+    color: var(--light-color);
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.sign-up:hover {
+    color: var(--accent);
+    background-color:var(--light-color);
+}
+
+.hero-image {
+    background-color: var(--mid-color);
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
 
