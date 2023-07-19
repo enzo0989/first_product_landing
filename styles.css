@@ -53,7 +53,7 @@ footer {
     background-color: var(--dark-color);
 }
 
-.cta-container {
+.cta-flex {
     background-color: var(--accent);
 }
 
