@@ -1,0 +1,41 @@
+/* general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-color:#1F2937;
+    --light-color:#F9FAF8;
+    --mid-color:#E5E7EB;
+    --accent:#3882F6;
+    --hover-color:#381FFF;
+}
+
+.centre {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 40px 0;
+}
+
+header,
+.hero,
+footer {
+    background-color: var(--dark-color);
+}
+
+.cta-container {
+    background-color: var(--accent);
+}
+
+.quote-container {
+    background-color: var(--mid-color);
+}
+
+.info-container {
+    background-color: var(--light-color);
+}
