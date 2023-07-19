@@ -144,6 +144,35 @@ a {
     display: flex;
     flex-direction: column;
     gap: 5px;
-
 }
 
+/*  info styles */
+
+.info-header {
+    font-size: 36px;
+    color: var(--dark-color);
+    text-align: center;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--accent);
+    border-radius: 10px;
+}
+
+.card {
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 40px 0;
+}
