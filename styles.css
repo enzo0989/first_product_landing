@@ -64,6 +64,10 @@ footer {
     background-color: var(--light-color);
 }
 
+header,
+footer {
+    height: 60px;
+}
 
 /* header styles */
 
@@ -72,7 +76,6 @@ li {
 }
 
 .header-list {
-    height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -204,3 +207,15 @@ a {
     border: 2px solid var(--light-color);
 }
 
+/* footer styles */
+
+.footer {
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    margin: 0 5px;
+}
