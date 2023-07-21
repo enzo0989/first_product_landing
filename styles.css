@@ -27,10 +27,10 @@
 }
 
 :root {
-    --dark-color:#1F2937;
+    --dark-color:#00504b;
     --light-color:#F9FAF8;
     --mid-color:#E5E7EB;
-    --accent:#3882F6;
+    --accent: #00aa4b;
 }
 
 body {
@@ -127,13 +127,14 @@ a {
 }
 
 .hero-image {
-    background-color: var(--mid-color);
+    background-color: var(--accent);
     width: 800px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: var(--light-color);
 }
 
 .hero-flex {
